@@ -20,6 +20,9 @@ header {
 header .imgbox {
   width: 40px;
 }
+header .menu {
+  display: none;
+}
 header nav a {
   color: #8c8999;
   font-size: 20px;
@@ -28,9 +31,20 @@ header nav a {
 header nav .home-color {
   color: #74bebc;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
   header nav {
     display: none;
+  }
+  header .menu {
+    display: flex;
+    margin-right: 20px;
+    font-size: 32px;
+  }
+  header .menu h3 {
+    font-weight: 700;
+  }
+  header .menu .icon i {
+    margin-right: 10px;
   }
 }
 
@@ -66,11 +80,14 @@ header nav .home-color {
   font-size: 20px;
 }
 @media screen and (max-width: 990px) {
+  #beautiful .box {
+    margin-left: 20px;
+  }
   #beautiful .box h1 {
     font-size: 40px;
   }
   #beautiful .imgbox {
-    margin-top: 40px;
+    margin: 40px 0 0 10px;
   }
 }
 
@@ -283,7 +300,7 @@ header nav .home-color {
 }
 @media screen and (max-width: 1200px) {
   #order .textbox {
-    margin-top: 20px;
+    margin: 20px 0 0 20px;
   }
   #order .textbox h1 {
     font-size: 40px;

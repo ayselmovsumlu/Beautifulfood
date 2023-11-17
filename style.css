@@ -31,19 +31,20 @@ header nav a {
 header nav .home-color {
   color: #74bebc;
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 650px) {
   header nav {
     display: none;
   }
   header .menu {
     display: flex;
-    margin-right: 20px;
-    font-size: 32px;
+    border: 3px solid #37b7c3;
+    color: #37b7c3;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 10px;
   }
   header .menu h3 {
     font-weight: 700;
-  }
-  header .menu .icon i {
     margin-right: 10px;
   }
 }
@@ -81,7 +82,7 @@ header nav .home-color {
 }
 @media screen and (max-width: 990px) {
   #beautiful .box {
-    margin-left: 20px;
+    margin-left: 30px;
   }
   #beautiful .box h1 {
     font-size: 40px;
@@ -133,9 +134,6 @@ header nav .home-color {
 @media screen and (max-width: 440px) {
   #thehome .imgbox {
     width: 250px;
-  }
-  #thehome .textbox {
-    margin-left: 20px;
   }
   #thehome .textbox h1 {
     font-size: 30px;
@@ -300,7 +298,7 @@ header nav .home-color {
 }
 @media screen and (max-width: 1200px) {
   #order .textbox {
-    margin: 20px 0 0 20px;
+    margin: 20px 0 0 30px;
   }
   #order .textbox h1 {
     font-size: 40px;
@@ -354,7 +352,7 @@ header nav .home-color {
 }
 @media screen and (max-width: 570px) {
   #callour .textbox {
-    margin-left: 20px;
+    margin-left: 30px;
   }
 }
 @media screen and (max-width: 430px) {
